@@ -1,0 +1,66 @@
+body{
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    height: 400px;
+    width: 440px;
+    background-color: rgba(214, 61, 209, 0.142);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 8px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 25px;
+    font-size: x-large;
+}
+
+.content{
+    padding-left: 30px;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+
+}
+
+.result{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inp{
+    height: 30px;
+    width: 250px;
+    padding-left: 5%;
+    border-radius: 6px;
+    border: none;
+}
+
+li{
+    padding: 3px ;
+}
+
+
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    height: 33px;
+    
+}
+
+.guess{
+    display: flex;
+    justify-content: center;
+    
+}
